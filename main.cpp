@@ -16,7 +16,7 @@ class HtmlViewer : public QDialog {
 public:
     HtmlViewer(const QString &htmlContent, QWidget *parent = nullptr) : QDialog(parent) {
         setWindowTitle("HTML Viewer");
-        setMinimumSize(800, 600);
+        resize(1200, 800); // Set a larger default size for the window
 
         QVBoxLayout *layout = new QVBoxLayout(this);
 
@@ -45,6 +45,12 @@ public:
         logoLabel->setPixmap(logo);
         logoLabel->setAlignment(Qt::AlignCenter);
         layout->addWidget(logoLabel);
+
+        // Title label below the logo
+        QLabel *titleLabel = new QLabel("Apex Html Viewer v1.0", this);
+        titleLabel->setStyleSheet("color: gold; font-size: 20px; font-weight: bold;");
+        titleLabel->setAlignment(Qt::AlignCenter);
+        layout->addWidget(titleLabel);
 
         // Text editor
         textEdit = new QTextEdit(this);

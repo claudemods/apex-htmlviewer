@@ -23,5 +23,6 @@ then use command make
 
 
 ![2025-03-15-035836_hyprshot](https://github.com/user-attachments/assets/e4b7514f-8fb8-40c6-8786-02edab0ca7de)
-![2025-03-15-035908_hyprshot](https://github.com/user-attachments/assets/843d6ab0-78da-49be-a7b8-50a29ab9fe51)
+![2025-03-15-040421_hyprshot](https://github.com/user-attachments/assets/f8f0d432-3300-4594-8e14-b932295ecfc1)
+
 

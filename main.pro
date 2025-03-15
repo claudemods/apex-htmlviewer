@@ -1,5 +1,5 @@
 # Project name
-TARGET = AppLauncher
+TARGET = apex-htmlviewer.bin
 
 # Required Qt modules
 QT += core gui widgets webenginewidgets webenginecore webenginequick

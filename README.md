@@ -20,3 +20,8 @@ then use command make
 <a href="https://www.debian.org" target="_blank"><img src="https://img.shields.io/badge/DISTRO-Debian-CE0058?style=for-the-badge&logo=Debian" /></a>
 <a href="https://ubuntu.com/" target="_blank"><img src="https://img.shields.io/badge/DISTRO-Ubuntu-E95420?style=for-the-badge&logo=Ubuntu" /></a>
 ></a>
+
+
+![2025-03-15-035836_hyprshot](https://github.com/user-attachments/assets/e4b7514f-8fb8-40c6-8786-02edab0ca7de)
+![2025-03-15-035908_hyprshot](https://github.com/user-attachments/assets/843d6ab0-78da-49be-a7b8-50a29ab9fe51)
+

@@ -1,7 +1,7 @@
 <div align="center">
 <img width="300" src="https://i.postimg.cc/25Jsj3yD/claudemods-3-6-2025-2.png" alt="logo">
 <div align="center">
-Apex Html Viewew
+Apex Html Viewer
   <div align="center">
 simple application to edit html and view it
     <div align="center">

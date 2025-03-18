@@ -54,12 +54,12 @@ public:
 
         // Text editor
         textEdit = new QTextEdit(this);
-        textEdit->setStyleSheet("background-color: black; color: teal;");
+        textEdit->setStyleSheet("background-color: black; color: #00586f;");
         layout->addWidget(textEdit);
 
         // View HTML button
         QPushButton *viewHtmlButton = new QPushButton("View Html", this);
-        viewHtmlButton->setStyleSheet("background-color: gold; color: teal;");
+        viewHtmlButton->setStyleSheet("background-color: gold; color: #00586f;");
         layout->addWidget(viewHtmlButton);
 
         // Color scheme selector
@@ -67,7 +67,7 @@ public:
         colorSchemeCombo->addItem("Default (Black Background, Teal Text)");
         colorSchemeCombo->addItem("Red Background, Gold Text");
         colorSchemeCombo->addItem("Dark Green Background, Black Text");
-        colorSchemeCombo->addItem("Black Background, Teal Text");
+        colorSchemeCombo->addItem("Black Background, White Text");
         layout->addWidget(colorSchemeCombo);
 
         // Connect signals and slots
@@ -87,7 +87,7 @@ private slots:
     void changeColorScheme(int index) {
         switch (index) {
             case 0: // Default
-                textEdit->setStyleSheet("background-color: black; color: teal;");
+                textEdit->setStyleSheet("background-color: black; color: #00586f;");
                 break;
             case 1: // Red Background, Gold Text
                 textEdit->setStyleSheet("background-color: red; color: gold;");
@@ -96,7 +96,7 @@ private slots:
                 textEdit->setStyleSheet("background-color: darkgreen; color: black;");
                 break;
             case 3: // Black Background, Teal Text
-                textEdit->setStyleSheet("background-color: black; color: teal;");
+                textEdit->setStyleSheet("background-color: black; color: white;");
                 break;
         }
     }
@@ -112,7 +112,7 @@ int main(int argc, char *argv[]) {
     QResource::registerResource("resources.rcc");
 
     // Set application style
-    app.setStyleSheet("QWidget { background-color: teal; color: gold; }");
+    app.setStyleSheet("QWidget { background-color: #00586f; color: gold; }");
 
     HtmlEditor editor;
     editor.setWindowTitle("Apex Html Editor And Viewer v1.0");

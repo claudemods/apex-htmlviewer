@@ -54,7 +54,7 @@ public:
 
         // Text editor
         textEdit = new QTextEdit(this);
-        textEdit->setStyleSheet("background-color: black; color: #00586f;");
+        textEdit->setStyleSheet("background-color: black; color: gold;");
         layout->addWidget(textEdit);
 
         // View HTML button
@@ -64,7 +64,7 @@ public:
 
         // Color scheme selector
         QComboBox *colorSchemeCombo = new QComboBox(this);
-        colorSchemeCombo->addItem("Default (Black Background, Teal Text)");
+        colorSchemeCombo->addItem("Default (Black Background, Gold Text)");
         colorSchemeCombo->addItem("Red Background, Gold Text");
         colorSchemeCombo->addItem("Dark Green Background, Black Text");
         colorSchemeCombo->addItem("Black Background, White Text");
@@ -87,7 +87,7 @@ private slots:
     void changeColorScheme(int index) {
         switch (index) {
             case 0: // Default
-                textEdit->setStyleSheet("background-color: black; color: #00586f;");
+                textEdit->setStyleSheet("background-color: black; color: gold;");
                 break;
             case 1: // Red Background, Gold Text
                 textEdit->setStyleSheet("background-color: red; color: gold;");

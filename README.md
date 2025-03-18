@@ -22,7 +22,10 @@ then use command make
 
 
 
-![2025-03-15-035836_hyprshot](https://github.com/user-attachments/assets/e4b7514f-8fb8-40c6-8786-02edab0ca7de)
-![2025-03-15-040421_hyprshot](https://github.com/user-attachments/assets/f8f0d432-3300-4594-8e14-b932295ecfc1)
+![Main Screen](https://github.com/user-attachments/assets/6eeb8176-0511-4a58-b970-be4f7cfb7df1)
+![Showing Html](https://github.com/user-attachments/assets/2c19e7e3-6f56-457e-adc8-b9805b6b33c2)
+![Change Colours](https://github.com/user-attachments/assets/011de26d-370c-4775-bb80-fdffb6e7b4cf)
+
+
 
 

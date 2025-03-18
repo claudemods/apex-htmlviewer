@@ -22,9 +22,10 @@ then use command make
 
 
 
-![Main Screen](https://github.com/user-attachments/assets/6eeb8176-0511-4a58-b970-be4f7cfb7df1)
-![Showing Html](https://github.com/user-attachments/assets/2c19e7e3-6f56-457e-adc8-b9805b6b33c2)
-![Change Colours](https://github.com/user-attachments/assets/011de26d-370c-4775-bb80-fdffb6e7b4cf)
+![Main Screen](https://github.com/user-attachments/assets/2c19e7e3-6f56-457e-adc8-b9805b6b33c2)
+![Show Html](https://github.com/user-attachments/assets/011de26d-370c-4775-bb80-fdffb6e7b4cf)
+![Change Colours](https://github.com/user-attachments/assets/32dd6b53-8b66-4bf4-ac40-d2f88f84e571)
+
 
 
 
